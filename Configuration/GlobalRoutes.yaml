@@ -4,7 +4,7 @@
   defaults:
     '@package':    'Visol.Media_frontend'
     '@plugin':     'Mediafrontend'
-    '@controller': 'MediaFrontendApi'
+    '@controller': 'Media_frontend_api'
     '@action':     'treeViewData'
   httpMethods: ['GET']
 
@@ -14,7 +14,7 @@
   defaults:
     '@package':    'Visol.Media_frontend'
     '@plugin':     'Mediafrontend'
-    '@controller': 'MediaFrontendApi'
+    '@controller': 'Media_frontend_api'
     '@action':     'fileBrowserData'
   httpMethods: ['GET']
 -
@@ -23,7 +23,7 @@
   defaults:
     '@package':    'Visol.Media_frontend'
     '@plugin':     'Mediafrontend'
-    '@controller': 'MediaFrontendApi'
+    '@controller': 'Media_frontend_api'
     '@action':     'fileBrowserData'
   httpMethods: ['GET']
 

@@ -1,0 +1,11 @@
+{
+	"name": "visol/media-frontend",
+	"type": "typo3-cms-extension",
+	"description": "A frontend file browser respecting access permissions",
+	"homepage": "https://github.com/visol/ext-media_frontend",
+	"license": ["GPL-2.0+"],
+	"require": {
+		"typo3-ter/fal-securedownload": "1.0.0",
+		"typo3-ter/routing": "0.3.0"
+	}
+}

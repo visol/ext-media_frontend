@@ -1,0 +1,29 @@
+-
+  name: 'Media Frontend API: Tree View Data'
+  uriPattern: 'mediafetree/{configurationContentUid}'
+  defaults:
+    '@package':    'Visol.Media_frontend'
+    '@plugin':     'Mediafrontend'
+    '@controller': 'MediaFrontendApi'
+    '@action':     'treeViewData'
+  httpMethods: ['GET']
+
+-
+  name: 'Media Frontend API: File Browser Data'
+  uriPattern: 'mediafebrowser/{folderCombinedIdentifier}'
+  defaults:
+    '@package':    'Visol.Media_frontend'
+    '@plugin':     'Mediafrontend'
+    '@controller': 'MediaFrontendApi'
+    '@action':     'fileBrowserData'
+  httpMethods: ['GET']
+-
+  name: 'Media Frontend API: File Browser Data'
+  uriPattern: 'mediafebrowser'
+  defaults:
+    '@package':    'Visol.Media_frontend'
+    '@plugin':     'Mediafrontend'
+    '@controller': 'MediaFrontendApi'
+    '@action':     'fileBrowserData'
+  httpMethods: ['GET']
+

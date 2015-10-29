@@ -86,6 +86,9 @@ $(function() {
 				// A node was activated: display its title:
 				var node = data.node;
 
+				// Expand node on click
+				node.setExpanded(true);
+
 				if (typeof(window.history.pushState) == 'function') {
 					var currentUrl = document.location.href.match(/(^[^#]*)/)[0];
 					var hash = '#' + node.key;

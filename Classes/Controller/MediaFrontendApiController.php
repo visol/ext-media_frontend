@@ -70,7 +70,8 @@ class MediaFrontendApiController extends AbstractController {
 			$folderData = array(
 				'title' => $folder->getName(),
 				'folder' => TRUE,
-				'key' => base64_encode($folder->getCombinedIdentifier()));
+				'key' => base64_encode($folder->getCombinedIdentifier())
+			);
 		}
 		return $folderData;
 	}

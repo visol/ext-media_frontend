@@ -48,7 +48,7 @@ $(function() {
 				},
 				{
 					"render": function (data, type, row) {
-						return '<a target="_blank" href="' + row.publicUrl + '">' + row.name + '</a>';
+						return '<a title="' + row.name + '" target="_blank" href="' + row.publicUrl + '">' + row.name + '</a>';
 					},
 					"targets": 1,
 					"className": "file-name",

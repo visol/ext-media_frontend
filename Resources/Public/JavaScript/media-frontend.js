@@ -30,29 +30,37 @@ $(function() {
 			"ajax": {
 				url: filebrowserDataUrl
 			},
+			"searching": false,
 			"pageLength": 25,
 			"language": {
 				"url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
 			},
+			"autoWidth": false,
 			"columnDefs": [
 				{
 					"render": function (data, type, row) {
 						return '<i class="' + row.fileTypeIconClass + '"></i>';
 					},
 					"orderable": false,
-					"targets": 0
+					"targets": 0,
+					"className": "file-type-icon",
+					"width": "5px"
 				},
 				{
 					"render": function (data, type, row) {
 						return '<a target="_blank" href="' + row.publicUrl + '">' + row.name + '</a>';
 					},
-					"targets": 1
+					"targets": 1,
+					"className": "file-name",
+					"width": "auto"
 				},
 				{
 					"render": function (data, type, row) {
 						return row.modificationTime;
 					},
-					"targets": 2
+					"targets": 2,
+					"className": "file-date",
+					"width": "55px"
 				}
 			]
 		});

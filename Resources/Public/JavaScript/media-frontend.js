@@ -98,4 +98,15 @@ $(function() {
 			}
 		});
 	}
+
+	//
+	// AJAX Loader
+	//
+	$.ajaxPrefilter(function(options, _, jqXHR) {
+		var $target = $('#ajax-loader');
+		$target.show();
+		jqXHR.complete(function() {
+			$target.hide();
+		});
+	});
 });

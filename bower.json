@@ -4,6 +4,7 @@
   "ignore": [],
   "dependencies": {
     "fancytree": "2.12.0",
-	"DataTables": "1.10.9"
+	"DataTables": "1.10.9",
+	"spinkit": "1.2.2"
   }
 }

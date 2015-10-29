@@ -53,3 +53,4 @@ page.includeJSFooter.mediaFrontendMain = EXT:media_frontend/Resources/Public/Jav
 page.includeCSS.mediaFrontendFancyTree = EXT:media_frontend/Resources/Public/Styles/ui.fancytree.css
 page.includeCSS.mediaFrontendJQueryDataTables = EXT:media_frontend/Resources/Public/Styles/jquery.dataTables.css
 page.includeCSS.mediaFrontend = EXT:media_frontend/Resources/Public/Styles/media-frontend.css
+page.includeCSS.mediaFrontend = EXT:media_frontend/Resources/Public/Styles/media-frontend.css

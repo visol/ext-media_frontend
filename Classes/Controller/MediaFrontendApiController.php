@@ -90,7 +90,7 @@ class MediaFrontendApiController extends AbstractController {
 			foreach ($files as $file) {
 				/** @var \TYPO3\CMS\Core\Resource\File $file */
 				$fileData = array();
-				$fileData['name'] = $file->getNameWithoutExtension();
+				$fileData['name'] = $file->getName();
 				$fileData['extension'] = $file->getExtension();
 				$fileData['publicUrl'] = $file->getPublicUrl();
 				$fileData['modificationTime'] = strftime('%d.%m.%y', $file->getModificationTime());
